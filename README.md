@@ -19,11 +19,22 @@ To install the website part, you can just put all the files in a folder inside a
 
 #### Game
 
+##### Developer
+To be able to edit, build and run the game, the Unity Engine is required. This can be downloaded here: https://unity3d.com/get-unity
+
+Unity is build in such a way that recognizes different versions and will give a message if it does detect so, giving further information on how to solve it. This means that any recent version of Unity is good enough. If that is not the case, the game is build in version: 5.3.4f1. ote that the Unity installer (at this moment) comes with a default code editor (MonoDevelop or Visual Studio). You can use this by default, or add your own if you want.
+
+When Unity is installed, there are two major ways of opening the project. Firstly, you can run Unity and click "OPEN" in the project launcher. Select the root folder in which the project is placed. This is the folder where the .sln file is located. Secondly, you can tell Unity to open the project in a specific scene. You can do this opening the Scene file (.unity) inside the Assets/Scenes/ with Unity.exe.
+
+Now that the project is openend in Unity, you can freely edit any of the assets. You can build a new version of the game by selecting File > Build Settings > Select "PC, Mac & Linux Standalone" > Build. If you want to change any build settings, like supported resolutions, this can be done by clicking "Player Settings" in the bottom left.
+
+To run the game in the editor, you can simply press the big play button in the top center of the screen.
+
+##### Running The Game
+
 The game is build to be run on a single desktop connected to a big screen. The desktop (or laptop) can be connected to a screen that supports inputs like HDMI, VGA, DVI, etc. Basically any cable that supports graphical transmission. It is very important to note, that every game instance is currently requesting from the same web server. So multiple game instances will request each other's queues. In order to fix this, every instance needs its own URL to request from. Meaning that for every game instance, there should be another copy of all the website files in a seperate folder.
 
 # ====== The Game
-
-The game is build in Unity C#.
 
 #### Loop
 I will explain the general loop in which the game functions and will mark important pieces in bold which I will explain after.
@@ -59,8 +70,6 @@ _When the timer reaches 100%, all the active rain clouds will despawn and a supe
 On a last note, there is a gameobject called Controllers in the scene. It has several childs with attached scripts that control most of the game logic. Most settings can also be tweaked here, but some are specific and can be found in the prefab folder on their respective object.
 
 # ====== The Website
-
-The website is build in HTML, CSS, JavaScript and PHP.
 
 #### Flow
 I will explain the general flow of the website and mark important parts in bold.
