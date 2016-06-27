@@ -25,6 +25,12 @@ public class RequestController : MonoBehaviour
 
     float _timer;
     WWW _www;
+	string _url;
+	
+	void Start()
+	{
+		_url = "[insert url here]";
+	}
 
     public void ClearOnlineQueue()
     {
@@ -33,7 +39,7 @@ public class RequestController : MonoBehaviour
         wwwForm.AddField("secret_key", "dj_rainfalla");
         wwwForm.AddField("action", "clear");
 
-        _www = new WWW("[INSERT_URL_HERE]", wwwForm);
+        _www = new WWW(_url, wwwForm);
     }
 
     void Update()
@@ -51,7 +57,7 @@ public class RequestController : MonoBehaviour
             WWWForm wwwForm = new WWWForm();
             wwwForm.AddField("secret_key", "dj_rainfalla");
 
-            _www = new WWW("http://jokg.nl/rain/GetQueuedData.php", wwwForm);
+            _www = new WWW(_url, wwwForm);
         }
 
         if (_www != null)

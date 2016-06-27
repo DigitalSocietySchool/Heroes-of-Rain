@@ -30,6 +30,10 @@ Now that the project is openend in Unity, you can freely edit any of the assets.
 
 To run the game in the editor, you can simply press the big play button in the top center of the screen.
 
+In order to connect the game with your webserver, you need to specifiy the URL to your "GetQueuedData.php" file. This file was installed during the installation of the website. You can specify this URL inside the RequestController.cs which can be found in Assets/Scripts/Controllers/. Inside the Start method (currently on line 32) there is a _url string where you can specifiy your URL.
+
+If you want to test without internet or need for the webserver, starting from the introduction screen, you can send in characters manually. You can spawn characters with rainproofing measures by pressing the 1 to 7 keys. You can send in rewards by pressing the Q to Y keys.
+
 ##### Running The Game
 
 The game is build to be run on a single desktop connected to a big screen. The desktop (or laptop) can be connected to a screen that supports inputs like HDMI, VGA, DVI, etc. Basically any cable that supports graphical transmission. It is very important to note, that every game instance is currently requesting from the same web server. So multiple game instances will request each other's queues. In order to fix this, every instance needs its own URL to request from. Meaning that for every game instance, there should be another copy of all the website files in a seperate folder.
