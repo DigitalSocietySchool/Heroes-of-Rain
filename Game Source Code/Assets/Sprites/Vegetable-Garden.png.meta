@@ -1,0 +1,104 @@
+fileFormatVersion: 2
+guid: 67ddf95724e265c45a646843d55127e5
+timeCreated: 1465805045
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Vegetable-Garden_0
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Vegetable-Garden_0
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 36
+        width: 426
+        height: 307
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 198, y: 64.5}
+        - {x: 175, y: 87.5}
+        - {x: 174, y: 87.5}
+        - {x: 150, y: 111.5}
+        - {x: 149, y: 111.5}
+        - {x: 126, y: 134.5}
+        - {x: 125, y: 134.5}
+        - {x: 106, y: 153.5}
+        - {x: 75, y: 153.5}
+        - {x: 74, y: 152.5}
+        - {x: 66, y: 152.5}
+        - {x: 65, y: 151.5}
+        - {x: 57, y: 151.5}
+        - {x: 56, y: 150.5}
+        - {x: 48, y: 150.5}
+        - {x: 47, y: 149.5}
+        - {x: 39, y: 149.5}
+        - {x: 38, y: 148.5}
+        - {x: 30, y: 148.5}
+        - {x: 29, y: 147.5}
+        - {x: 20, y: 147.5}
+        - {x: 15, y: 146.5}
+        - {x: -213, y: 32.5}
+        - {x: -213, y: -59.5}
+        - {x: -195, y: -68.5}
+        - {x: -193, y: -68.5}
+        - {x: -146, y: -92.5}
+        - {x: -144, y: -92.5}
+        - {x: -95, y: -117.5}
+        - {x: -93, y: -117.5}
+        - {x: -21, y: -153.5}
+        - {x: -11, y: -153.5}
+        - {x: 213, y: -41.5}
+        - {x: 213, y: 50.5}
+        - {x: 199, y: 64.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

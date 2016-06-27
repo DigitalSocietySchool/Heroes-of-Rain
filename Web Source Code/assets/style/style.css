@@ -1,0 +1,110 @@
+/*@media only screen 
+  and (min-device-width: 200px) 
+  and (max-device-width: 700px)
+  and (-webkit-min-device-pixel-ratio: 1) {*/
+
+	body{
+		background-color: #ECF0F1;
+		font-family: 'Avenir Next','Avenir', helvetica, 'helvetica-neue',sans-serif;
+		color: #3F9ED8;
+		font-size: 1.2em;
+		margin: 1em 1em;
+	}
+
+	#logo{
+		width: 100%;
+	}
+
+	h1{
+		margin-top: 1em;
+		font-size: 1.3em;
+	}
+
+	label{
+		width: 100%;
+		display: block;
+		margin-bottom: 1.5rem;
+	}
+
+	label:first-of-type{
+		font-weight: bold;
+		margin-bottom: 1rem;
+	}
+
+	label > em{
+		position: relative;
+		left: 2.5rem;
+		font-size: .8em;
+	}
+
+
+	form input[type=text]{
+		width: 100%;
+		font-size: 18px;
+		font-family: 'Avenir Next','Avenir', helvetica, 'helvetica-neue',sans-serif;
+		border: none;
+		padding: .2em .2em;
+		margin-top: .4em;
+		position: relative;
+		left: -4px;
+	}
+
+	input[type=radio]:checked ~ label[for]{ 
+		background-color: #FFFFFF;
+	}
+
+	.buttons{
+		margin-top: 1em;
+	}
+
+	.buttons > label {
+	    display: inline-block;
+	    margin: .2em;
+	    padding: 1% 2%;
+	    width: 95%;
+	    background-color: #E2E2E2;
+	}
+
+	.buttons > label:first-of-type{
+		background-color: transparent;
+	}
+
+	.button {
+	    width: 100%;
+	    font-size: 1em;
+	    margin-top: 1em;
+	    border: 0;
+		border-radius: 5px;
+		padding: 10px 20px;
+		text-decoration: none;
+		color: #fff;
+		background-color: #3F9ED8;
+  		box-shadow: 0px 5px 0px 0px #388BBE;
+	}
+
+	.choice{
+		width: 90%;
+		display: block;
+		margin-bottom: 3rem;
+	}
+
+
+	.hidden{
+		display: none;
+	}
+
+	.back {
+	    display: block;
+	    text-decoration: none;
+	    text-align: center;
+	    background: #2C6F98;
+	    color: white;
+	    position: relative;
+	    left: -20px;
+	    top: -20px;
+	    margin-bottom: -1em;
+	    width: 100%;
+	    padding: 1em;
+	}
+
+/*}*/
